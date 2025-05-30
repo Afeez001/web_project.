@@ -9,5 +9,16 @@
 </head>
 <body>
     <h1 id="name">arikeade</h1>
+    <h2 id="demo"> Hello World Hazken</h2>
+    <button onclick="myFunc()">
+        Try It
+    </button>
+    <script>
+        function myFunc(){
+            let text = document.getElementById("demo").innerHTML;
+            document.getElementById("demo").innerHTML = text.replace("Hazken", "Hafexcreation")
+            
+        }
+    </script>
 </body>
 </html>
