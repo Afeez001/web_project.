@@ -1,0 +1,22 @@
+h4{
+	Color: maroon;
+	text-align: right;
+}
+
+.label{
+	font-size: 20px;
+}
+
+.form-box{
+	width: 500px;
+	margin: 0 auto;
+	background-color: blanchedalmond;
+	padding: 20px 30px;
+	border-radius: 10px;
+}
+
+input{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+}

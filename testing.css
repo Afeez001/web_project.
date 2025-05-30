@@ -1,0 +1,19 @@
+.top{position: fixed;
+	top: 400px;
+	left: 150px;
+}
+.absolute{
+	position: absolute;
+	left:30px;
+	top: 30px;
+}
+.relative{
+	position: relative;
+	left: 300px;
+}
+
+.sticky{
+	position: sticky;
+	position: -webkit-sticky;
+	left: 0px;
+}

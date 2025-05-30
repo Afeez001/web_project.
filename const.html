@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="texting.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Const page</title>
+</head>
+<body>
+	<h3 id="Demo">
+	</h3>
+	<h2 id="Demo1">
+	</h2>
+	<h2 id="Demo2">
+	</h2>
+	<h2 id="Demo3">
+	</h2>
+	<h2 id="Demo4">
+	</h2>
+	<h2 id="Demo5">
+	</h2>
+	<h2 id="Demo6">
+	</h2>
+	<h2 id="Demo7">
+	</h2>
+	<h2 id="Demo10">
+	</h2>
+	
+	<!-- <script>
+
+		const adeBola = {
+			fullName: "Ishola Adebola OPeyemi",
+			age: 20,
+			occupation: {
+				occup1: "Web developer",
+				occup2: "Visual Identity Designer"
+			} ,
+			socialMediaPage: "hafexcreation",
+			height: "5.7ft",
+			about: function(){
+				return (this.fullName + " " + this.age + " " + this.occupation.occup1 + " " + " and " + " " + this.occupation.occup2).toUpperCase()
+			}
+		}
+		document.getElementById("Demo").innerHTML = adeBola.about();
+		document.getElementById("Demo1").innerHTML = adeBola.age + " years";
+		document.getElementById("Demo2").innerHTML = "occupations: " + adeBola.occupation.occup1 + "and " + adeBola.occupation.occup2;
+		document.getElementById("Demo3").innerHTML = "social Media Handle page: " + adeBola.socialMediaPage;
+		document.getElementById("Demo4").innerHTML = "his height is: " + adeBola.height;
+	</script>
+	<script>
+		const person = {
+	name: "Adebola",
+	color: "caramel",
+	age: 30,
+	personality: function(){
+		return person.color + " " + person.name;
+	    }
+    }
+		document.getElementById("Demo5").innerHTML = person.age;
+	</script> -->
+	
+	<script>
+		//object constructor
+		function person(first, last, age, page){
+		  this.firstName = first;
+		  this.surName = last;
+		  this.age = age;
+		  this.socialmediapage = page;
+		}
+		//create new object
+		const adebola = new person("Adebola", "Ishola", 20, "hafexcreation");
+		const isaiah = new person("Isaiah", "olaoluwa", 35, "No_page_yet");
+
+		document.getElementById("Demo6").innerHTML = adebola.age;
+		document.getElementById("Demo7").innerHTML = isaiah.socialmediapage;
+	</script>
+	<script>
+		//create a new obj constructor
+		function person(firstName, lastName, page,){
+			this.name = firstName,
+			this.last = lastName,
+			this.socialmediapage = page;
+		}
+
+		const adeBola = new person("hafeez", "ishola", "hafexcreation")
+
+		document.getElementById("Demo10").innerHTML = adeBola.socialmediapage;
+	</script>
+</body>
+</html>
